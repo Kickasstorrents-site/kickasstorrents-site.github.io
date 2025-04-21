@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+<html style="font-size: 16px;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="" />
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Torrents, KickAss, proxy, proxy list, Fast, reliable">
+    <meta name="description"
+        content="KickAss Torrents – Your go-to destination for all your torrenting needs since 2008. Fast, reliable, and always here when you need it!">
+    <title>Kickass Torrents - Easy Torrenting</title>
+    <link rel="stylesheet" href="css/style2.css?v=1744981633" media="screen">
+    <link rel="canonical" href="https://kickasstorrents.io/" />
+    <link rel="stylesheet" href="css/torrentbay2.css" media="screen">
+    <link rel="icon" href="/images/kiklogo.svg">
+    <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide:400">
+    <meta property="og:title" content="Kickass Torrents - Easy Torrenting">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="KickAss Torrents – Your go-to destination for all your torrenting needs since 2008. Fast, reliable, and always here when you need it!">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="GWXDKHUL" defer></script>
+    <!-- / Fathom -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .u-body {
+            padding-top: 20px;
+        }
+
+        header {
+            top: 0;
+        }
+
+        @font-face {
+            font-family: katfont;
+            src: url(css/font/katfont-Regular-v2.woff) format('woff'),
+                url(css/font/katfont-Regular-v2.svg) format('svg')
+        }
+
+        header a#logo {
+            margin: 5px;
+            float: left;
+            width: 220px;
+            height: 40px;
+            background: url(images/logo/kat_logo_ny-1x-0883175.png) no-repeat;
+            transition: .2s all;
+            display: inline-block;
+        }
+
+        .ka-torrent:before {
+            content: ""
+        }
+
+        .ka-torrent-add:before {
+            content: ""
+        }
+
+        .ka-torrent-remove:before {
+            content: ""
+        }
+
+        .ka-torrent-accept:before {
+            content: ""
+        }
+
+        .ka-torrent-delete:before {
+            content: ""
+        }
+
+        .ka-torrent-move:before {
+            content: ""
+        }
+
+        .ka-comment:before,
+        .ka-quote:before {
+            content: ""
+        }
+
+        .ka-comment-add:before {
+            content: ""
+        }
+
+        .ka-comment-remove:before {
+            content: ""
+        }
+
+        .ka-comment-accept:before {
+            content: ""
+        }
+
+        .ka-comment-delete:before {
+            content: ""
+        }
+
+        .ka-comment-move:before {
+            content: ""
+        }
+
+        .ka-user:before {
+            content: ""
+        }
+
+        .ka-user-add:before {
+            content: ""
+        }
+
+        .ka-user-remove:before {
+            content: ""
+        }
+
+        .ka-user-accept:before {
+            content: ""
+        }
+
+        .ka-user-delete:before {
+            content: ""
+        }
+
+        .ka-user-move:before {
+            content: ""
+        }
+
+        .ka-idea:before {
+            content: ""
+        }
+
+        .ka-idea-add:before {
+            content: ""
+        }
+
+        .ka-idea-remove:before {
+            content: ""
+        }
+
+        .ka-idea-accept:before {
+            content: ""
+        }
+
+        .ka-idea-delete:before {
+            content: ""
+        }
+
+        .ka-idea-move:before {
+            content: ""
+        }
+
+        .ka-preview:before,
+        .ka-accept:before {
+            content: ""
+        }
+
+        .ka-delete:before {
+            content: ""
+        }
+
+        .ka-folder:before,
+        .markeredBlock.torType.folderType:before {
+            content: ""
+        }
+
+        .ka-document:before,
+        .markeredBlock.torType.undefinedType:before,
+        .markeredBlock.torType:before {
+            content: ""
+        }
+
+        .ka-faq:before,
+        .markeredBlock.torType.nfoType:before {
+            content: ""
+        }
+
+        .ka-music-note:before,
+        .markeredBlock.torType.musicType:before {
+            content: ""
+        }
+
+        .ka-bookmark:before,
+        .markeredBlock.torType.pdfType:before {
+            content: ""
+        }
+
+        .ka-unknown:before,
+        .markeredBlock.torType.zipType:before {
+            content: ""
+        }
+
+        .ka-text:before,
+        .markeredBlock.torType.txtType:before {
+            content: ""
+        }
+
+        .ka-settings:before,
+        .markeredBlock.torType.exeType:before {
+            content: "";
+        }
+
+        .ka-camera:before,
+        .markeredBlock.torType.pictureType:before {
+            content: ""
+        }
+
+        .ka-film:before,
+        .ka-movie:before,
+        .markeredBlock.torType.filmType:before {
+            content: ""
+        }
+
+        .ka-flash:before,
+        .markeredBlock.torType.flashType:before {
+            content: ""
+        }
+
+        .ka-plus:before {
+            content: ""
+        }
+
+        .ka-minus:before {
+            content: ""
+        }
+
+        .ka-share:before {
+            content: ""
+        }
+
+        .ka-report:before {
+            content: ""
+        }
+
+        .ka-announce:before {
+            content: ""
+        }
+
+        .ka-community:before {
+            content: ""
+        }
+
+        .ka-achievement:before {
+            content: ""
+        }
+
+        .ka-tag:before {
+            content: ""
+        }
+
+        .ka-tags:before {
+            content: ""
+        }
+
+        .ka-users:before {
+            content: ""
+        }
+
+        .ka-verify:before,
+        .ka-unverify:before {
+            content: ""
+        }
+
+        .ka-star:before,
+        .ka-unstar:before {
+            content: ""
+        }
+
+        .ka-message:before {
+            content: ""
+        }
+
+        .ka-arrow-up:before,
+        .ka-arrow-right:before,
+        .ka-arrow-down:before,
+        .ka-arrow-left:before {
+            content: ""
+        }
+
+        .ka-merge:before {
+            content: ""
+        }
+
+        .ka-mute:before {
+            content: ""
+        }
+
+        .ka-edit:before {
+            content: ""
+        }
+
+        .ka-search:before,
+        .ka-zoom:before {
+            content: ""
+        }
+
+        .ka-pin:before {
+            content: ""
+        }
+
+        .ka-follow:before {
+            content: ""
+        }
+
+        .ka-unfollow:before {
+            content: ""
+        }
+
+        .ka-magnet:before {
+            content: ""
+        }
+
+        .ka-lock:before {
+            content: ""
+        }
+
+        .ka-unlock:before {
+            content: ""
+        }
+
+        .ka-arrow2-up:before,
+        .ka-arrow2-right:before,
+        .ka-arrow2-down:before,
+        .ka-arrow2-left:before {
+            content: ""
+        }
+
+        .ka-arrow3-up:before,
+        .ka-arrow3-right:before,
+        .ka-arrow3-down:before,
+        .ka-arrow3-left:before {
+            content: ""
+        }
+
+        .ka-thumbs-up:before {
+            content: ""
+        }
+
+        .ka-thumbs-down:before {
+            content: ""
+        }
+
+        .ka-bullet:before {
+            content: ""
+        }
+
+        .ka-time:before {
+            content: ""
+        }
+
+        .ka-rss:before {
+            content: ""
+        }
+
+        .ka-key:before {
+            content: ""
+        }
+
+        .ka-reply:before {
+            content: ""
+        }
+
+        .ka-refresh:before {
+            content: ""
+        }
+
+        .ka-list:before {
+            content: ""
+        }
+
+        .ka-list2:before {
+            content: ""
+        }
+
+        .ka-sound:before {
+            content: ""
+        }
+
+        .ka-eye:before {
+            content: ""
+        }
+
+        .ka-poll:before {
+            content: ""
+        }
+
+        .ka-IP:before {
+            content: ""
+        }
+
+        .ka-IP-ban:before {
+            content: ""
+        }
+
+        .ka-DMCA:before {
+            content: ""
+        }
+
+        .ka-link:before,
+        .ka-url:before,
+        .ka-image-link:before {
+            content: ""
+        }
+
+        .ka-bold:before,
+        .ka-b:before {
+            content: ""
+        }
+
+        .ka-italic:before,
+        .ka-i:before {
+            content: ""
+        }
+
+        .ka-underline:before,
+        .ka-u:before {
+            content: ""
+        }
+
+        .ka-strike:before,
+        .ka-s:before {
+            content: ""
+        }
+
+        .ka-image:before,
+        .ka-image-upload:before {
+            content: ""
+        }
+
+        .ka-align:before,
+        .ka-align-left:before {
+            content: ""
+        }
+
+        .ka-align-right:before {
+            content: ""
+        }
+
+        .ka-align-center:before {
+            content: ""
+        }
+
+        .ka-align-justify:before {
+            content: ""
+        }
+
+        .ka-list-bullet:before {
+            content: ""
+        }
+
+        .ka-list-numeric:before {
+            content: ""
+        }
+
+        .ka-list-additem:before {
+            content: ""
+        }
+
+        .ka-size-small:before,
+        .ka-size-100:before,
+        .ka-size-200:before,
+        .ka-size:before {
+            content: ""
+        }
+
+        .ka-code:before {
+            content: ""
+        }
+
+        .ka-color:before {
+            content: ""
+        }
+
+        .ka-youtube:before {
+            content: ""
+        }
+
+        .ka-smiles:before {
+            content: ""
+        }
+
+        .ka-attention:before,
+        .ka-spoiler:before {
+            content: ""
+        }
+
+        .ka-folder2:before {
+            content: ""
+        }
+
+        .ka-settings2:before {
+            content: ""
+        }
+
+        .ka-calendar:before {
+            content: ""
+        }
+
+        .ka-unpin:before {
+            content: ""
+        }
+
+        .ka-eye-off:before {
+            content: ""
+        }
+
+        .ka-sup:before {
+            content: ""
+        }
+
+        .ka-sub:before {
+            content: ""
+        }
+
+        .ka-flag:before {
+            content: ""
+        }
+
+        .ka-toggle-on:before {
+            content: ""
+        }
+
+        .ka-toggle-off:before {
+            content: ""
+        }
+
+        .ka-firefox:before {
+            content: ""
+        }
+
+        .ka-facebook:before {
+            content: ""
+        }
+
+        .ka-twitter:before {
+            content: ""
+        }
+
+        .ka-kat:before {
+            content: ""
+        }
+
+        .ka-irc:before {
+            content: ""
+        }
+
+        .ka-chrome:before {
+            content: ""
+        }
+
+        .ka-opera:before {
+            content: ""
+        }
+
+        .ka-ie:before {
+            content: ""
+        }
+
+        .ka-utorrent:before {
+            content: ""
+        }
+
+        .ka-layout-sidebar:before {
+            content: ""
+        }
+
+        .ka-layout-sidebar2:before {
+            content: ""
+        }
+
+        .ka-imdb:before {
+            content: ""
+        }
+
+        .ka-tomato:before {
+            content: ""
+        }
+
+        .ka-popcorn:before {
+            content: ""
+        }
+
+        .ka-90:before,
+        .ka-arrow-right:before,
+        .ka-arrow2-right:before,
+        .ka-arrow3-right:before {
+            transform: rotate(90deg)
+        }
+
+        .ka-180:before,
+        .ka-unverify:before,
+        .ka-unstar:before,
+        .ka-arrow-down:before,
+        .ka-arrow2-down:before,
+        .ka-arrow3-down:before {
+            transform: rotate(180deg)
+        }
+
+        .ka-270:before,
+        .ka-arrow-left:before,
+        .ka-arrow2-left:before,
+        .ka-arrow3-left:before {
+            transform: rotate(270deg)
+        }
+
+        #torrentSearch {
+            position: relative;
+            top: 9px;
+            float: left;
+            width: 21%
+        }
+
+        #contentSearch {
+            position: relative;
+            line-height: 20px;
+            z-index: 1;
+            box-sizing: border-box;
+            width: 100%;
+            font-size: 14px;
+            padding: 5px 60px 5px 8px;
+            color: #7c6a59;
+            margin: 0 !important;
+            border: none;
+            box-shadow: 0 1px 0 1px rgba(0, 0, 0, .2);
+            -webkit-appearance: none !important;
+            border-radius: 2px
+        }
+
+        #searchTool {
+            position: absolute;
+            top: 0;
+            right: 5px;
+            z-index: 3
+        }
+
+        #searchTool button {
+            cursor: pointer;
+            background: none;
+            border: 0;
+        }
+
+        #searchTool .ka:before {
+            font-size: 17px !important;
+            margin: 2px;
+            color: #5f5f5e;
+            text-shadow: none;
+            cursor: pointer;
+            line-height: 26px;
+            height: 30px
+        }
+
+        #searchTool .ka:before:hover {
+            color: #2a2a2a;
+            cursor: pointer !important
+        }
+
+        #navigation>li:hover a {
+            background: #2c240f
+        }
+
+        #navigation {
+            position: absolute;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #navigation li {
+            float: left;
+            position: relative
+        }
+
+        #navigation li a {
+            color: #ffeeb4;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 0 13px;
+            height: 48px;
+            line-height: 48px;
+            display: block;
+            transition: .1s all;
+            text-decoration: none !important;
+            position: relative;
+            transform: translate3d(0, 0, 0)
+        }
+
+        @media(max-width:860px) {
+            #navigation li a {
+                padding: 0 3.5vw
+            }
+        }
+
+        #navigation li a .menuItem {
+            display: inline-block;
+            margin: 0 5px;
+            text-transform: uppercase
+        }
+
+        #navigation li a .menuItem.usernameProfile {
+            text-transform: none
+        }
+
+        #navigation li a:hover {
+            background: #2c240f
+        }
+
+        #navigation li a:hover .valueBubble {
+            border: 2px solid #2c240f !important
+        }
+
+        #navigation li:hover .dropdown {
+            display: block
+        }
+
+        #navigation li .ka:before {
+            font-size: 16px !important;
+            line-height: 16px;
+            position: relative;
+            font-weight: 100 !important;
+            top: 1px
+        }
+
+        #navigation li .userImage {
+            height: 25px;
+            width: 25px;
+            margin: 0 5px 9px 6px;
+            border-radius: 50%;
+            border: 3px solid #2c240f
+        }
+
+        #navigation li .dropdown {
+            display: none;
+            width: 145px;
+            position: absolute;
+            transition: .1s all;
+            background: #594c2d;
+            padding: 5px 5px 0;
+            border-radius: 0 0 3px 3px
+        }
+
+        #navigation li .dropdown li {
+            float: none;
+            margin-bottom: 5px;
+            list-style: none;
+            padding: 0;
+            margin: 0
+        }
+
+        #navigation li .dropdown li a {
+            width: 100%;
+            height: 34px;
+            line-height: 36px;
+            background: #594c2d;
+            border-radius: 3px;
+            border-top: none;
+            padding: 0 8px;
+            box-sizing: border-box;
+            text-align: left
+        }
+
+        #navigation li .dropdown li a:hover {
+            background: #2c240f
+        }
+
+        #navigation li .dropdown li .ka:before {
+            font-size: 14px !important;
+            line-height: 15px !important;
+            margin-right: 8px
+        }
+
+        #navigation li .dropdown li .ka16 {
+            line-height: 10px !important;
+            margin-top: 8px;
+            margin-right: 6px
+        }
+
+        #navigation li .dropdown hr {
+            border-top: 1px solid rgba(255, 254, 181, .23)
+        }
+
+        #navigation li .dp-left {
+            left: -13px;
+            width: 150px
+        }
+
+        #navigation li .dp-right {
+            right: 0 !important
+        }
+
+        #navigation li .dp-middle {
+            right: -130px !important
+        }
+
+        #navigation li .select-opt {
+            width: 135px;
+            height: 35px;
+            margin-left: -8px;
+            color: #ffeeb4;
+            background: #2c240f;
+            font-size: 12px;
+            border: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding: 7px;
+            cursor: pointer;
+            text-transform: none
+        }
+
+        .dropdown-msg {
+            width: 310px !important;
+            display: none
+        }
+
+        .dropdown-msg li {
+            float: left !important;
+            position: relative
+        }
+
+        .dropdown-msg li a.dp-dialogs {
+            float: left !important;
+            width: 300px !important;
+            height: 56px !important
+        }
+
+        .dropdown-msg li a.dp-dialogs p.msgContent {
+            position: absolute !important;
+            line-height: 11px !important;
+            font-size: 10px !important;
+            top: 22px !important;
+            left: 51px !important;
+            font-size: 9px !important;
+            font-weight: 100;
+            overflow: hidden;
+            height: 30px
+        }
+
+        .dropdown-msg li a.dp-dialogs p.msgContent img {
+            display: none
+        }
+
+        .dropdown-msg li a.dp-dialogs img {
+            height: 40px !important;
+            width: 40px !important;
+            margin: 8px 8px 8px 0 !important
+        }
+
+        .dropdown-msg li a.dp-dialogs .msgUsername {
+            position: absolute !important;
+            line-height: 25px !important;
+            width: 230px !important
+        }
+
+        .dropdown-msg li a.dp-dialogs .msgDate {
+            position: absolute !important;
+            right: 0 !important;
+            text-align: right !important;
+            font-weight: 100 !important;
+            font-size: 9px !important
+        }
+
+        .dropdown-msg .msgOption {
+            position: absolute;
+            display: none;
+            bottom: 5px;
+            right: 0;
+            color: #ffeeb4
+        }
+
+        .dropdown-msg .msgOptionActive {
+            background: #2c240f
+        }
+
+        .dropdown-msg .topMsg {
+            height: 35px !important;
+            float: left
+        }
+
+        .dropdown-msg .topMsg a {
+            float: left !important;
+            width: 148px !important
+        }
+
+        .dropdown-msg .dp-oneLine a {
+            width: 300px !important
+        }
+
+        #showHideSearch {
+            color: #ffeeb4;
+            float: left;
+            position: relative;
+            font-size: 32px;
+            line-height: 36px
+        }
+
+
+        .sliderbox ul li #aclrow a {
+            padding: 4px 0 4px 0
+        }
+
+        .ka:before {
+            font-family: katfont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            speak: none;
+            display: inline-block;
+            text-decoration: none !important;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+            font-variant: normal !important;
+            text-transform: none !important;
+            line-height: 16px;
+            margin-left: .2em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            cursor: pointer
+        }
+
+        .ka,
+        .ka:hover,
+        .ka:hover:before,
+        .ka:before,
+        .ka16 {
+            text-decoration: none !important;
+            font-variant: normal !important;
+            text-transform: none !important
+        }
+
+        .ka16 {
+            display: inline-block;
+            font-size: 14px;
+            color: #fff;
+            background: #c1ad6a;
+            background: -moz-linear-gradient(top, #c1ad6a 0%, #a28e4b 100%);
+            background: -webkit-linear-gradient(top, #c1ad6a 0%, #a28e4b 100%);
+            background: -ms-linear-gradient(top, #c1ad6a 0%, #a28e4b 100%);
+            background: linear-gradient(to bottom, #c1ad6a 0%, #a28e4b 100%);
+            text-shadow: 0 1px 0 #867026;
+            padding: 2px 0;
+            border-radius: 2px;
+            height: 16px;
+            line-height: 14px !important;
+            width: 20px;
+            text-align: center;
+            margin: 0 0 1px
+        }
+
+        .ka16:hover {
+            color: #fff;
+            background: #a28e4b
+        }
+
+        .ka16 em {
+            font: verdana normal .5em;
+            vertical-align: middle;
+            display: inline-block;
+            -webkit-font-smoothing: subpixel-antialiased;
+            padding: 0 4px 0 1px
+        }
+
+        a:hover .ka16 {
+            background: #a28e4b
+        }
+
+        .ka-overlay {
+            position: absolute;
+            z-index: 11;
+            font-size: 300%;
+            color: #fff;
+            line-height: 150%;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, .4)
+        }
+
+        .ka-500 {
+            font-size: 500%;
+            line-height: 170%
+        }
+
+        .ka20 {
+            font-size: 23px;
+            height: 16px;
+            line-height: 16px
+        }
+
+        .ka-red {
+            background: #d47e3c !important;
+            text-shadow: 0 1px 0 #d47e3c
+        }
+
+        .ka-red:hover {
+            background: #ab6531 !important
+        }
+
+        .ka-green {
+            background: #8da73e !important;
+            text-shadow: 0 1px 0 #8da73e
+        }
+
+        .ka-green:hover {
+            background: #79971d !important
+        }
+
+        .ka-grey {
+            background: #7a7a7a !important;
+            text-shadow: 0 1px 0 #7a7a7a
+        }
+
+        .ka-grey:hover {
+            background: #656565 !important
+        }
+
+        .commentHeadLine .ka-textbutton,
+        .commentHeadLine .ka16 {
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .08) inset, 0 -1px 0 0 rgba(0, 0, 0, .03) inset, 0 1px 0 0 rgba(255, 255, 255, .2) inset
+        }
+
+        .commentHeadLine .ka-textbutton.ka16,
+        .commentHeadLine .ka16.ka16 {
+            width: unset
+        }
+
+        .commentHeadLine .ka:not(:hover) {
+            background: transparent none repeat scroll 0% 0% !important;
+            text-shadow: 0 1px 0 #7a7a7a
+        }
+
+        .ka-disabled {
+            cursor: default !important;
+            background: #b5b5b5 !important;
+            text-shadow: 0 1px 0 #a2a2a2
+        }
+
+        .ka-disabled:hover {
+            background: #b5b5b5 !important
+        }
+
+        .ka img {
+            position: absolute;
+            margin: 2px 0 0 -9px
+        }
+
+        .ka-textbutton {
+            width: auto
+        }
+
+        .ka-textbutton i {
+            text-decoration: none;
+            font-family: Verdana, Geneva, sans-serif !important;
+            white-space: nowrap;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            margin: 0;
+            padding: 0 5px 0 2px
+        }
+
+        .ka-vul2 {
+            color: #744ace !important;
+            width: 13px;
+            font-size: 20px;
+            height: 10px;
+            line-height: .6em
+        }
+
+        a#logo span {
+            display: inline-block;
+            height: 100%;
+            vertical-align: bottom;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            padding: 4px 0;
+        }
+
+
+        @media handheld,
+        screen and (max-width:585px) {
+            #menu {
+                min-width: 585px
+            }
+
+            #showHideSearch {
+                display: block
+            }
+
+            #torrentSearch {
+                position: absolute !important;
+                left: 90px;
+                z-index: 200;
+                width: 70% !important;
+                display: none
+            }
+
+            #navigation {
+                right: 170px;
+            }
+
+            a#logo span {
+                display: none;
+            }
+
+            header a#logo {
+                width: 50px
+            }
+        }
+
+        @media handheld,
+        screen and (min-width:586px) {
+            #showHideSearch {
+                display: none
+            }
+
+            #torrentSearch {
+                display: block
+            }
+
+        }
+
+        @media screen and (max-width:1000px) {
+            #showHideSearch {
+                font-size: 32px !important;
+                line-height: 36px !important;
+                top: 0
+            }
+
+            #navigation li a .menuItem {
+                display: none
+            }
+
+            p.msgContent {
+                display: block !important
+            }
+        }
+
+        @media screen and (max-width:1348px) {
+            .ui-menu.ui-search-autocomplete {
+                left: 53px !important
+            }
+
+            header a#logo img {
+                width: 55px;
+                display: inline-block;
+            }
+
+            #torrentSearch,
+            .ui-menu.ui-search-autocomplete {
+                width: 30% !important;
+                min-width: 210px !important
+            }
+
+            .showOnlyWide {
+                display: none
+            }
+
+            .showOnlyNarrow {
+                display: block
+            }
+        }
+
+        @media screen and (max-width:1267px) {
+            .latest-title {
+                width: 140px
+            }
+        }
+
+        @media screen and (min-width:1348px) {
+            .showOnlyWide {
+                display: block
+            }
+
+            .showOnlyNarrow {
+                display: none
+            }
+        }
+
+        @media screen and (max-width:1469px) {
+            .showFeedback {
+                display: none
+            }
+
+            .hideFeedback {
+                display: block
+            }
+        }
+
+        @media screen and (min-width:1470px) {
+            .showFeedback {
+                display: block
+            }
+
+            .hideFeedback {
+                display: none
+            }
+        }
+    </style>
+</head>
+
+<body class="u-body">
+
+
+    <header>
+        <nav id="menu">
+            <a href="https://kickasstorrents.io/" title="kickass" id="logo"><img alt="kickass" title="kickass" src="images/kiklogo.svg"
+                    class="img-fluid" align="left" border="0" width="72"><span>kickass<strong>torrents</strong></span>
+            </a>
+            <a href="#" title="zoom" id="showHideSearch">
+                <i class="ka ka-zoom">
+                </i>
+            </a>
+            <div id="torrentSearch">
+                <form action="https://kickasstorrents.io/network/kickasstorrents/" method="get" id="searchform" accept-charset="utf-8">
+                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input
+                        id="contentSearch" class="input-big ui-autocomplete-input" type="text" name="q" value=""
+                        autocomplete="off" placeholder="Search">
+                    <div id="searchTool">
+                        <button title="search" type="submit" value="" onfocus="this.blur();" onclick="this.blur();">
+                            <i class="ka ka-search">
+                            </i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <ul id="navigation">
+                <li>
+                    <a href="https://kickasstorrents.io" title="browse">
+                        <i class="ka ka-torrent">
+                        </i>
+                        <span class="menuItem">
+                            browse
+                        </span>
+                    </a>
+
+                </li>
+                <li>
+                    <a data-nop="" title="POPULAR" href="https://kickasstorrents.io"> <i class="ka ka-community"></i><span
+                            class="menuItem">POPULAR</span></a>
+
+                </li>
+                <li>
+                    <a data-nop="" title="top" href="https://kickasstorrents.io"><i class="ka ka-rss lower"></i><span
+                            class="menuItem">TOP</span></a>
+
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <section class=" u-clearfix u-grey-5 u-section-1" id="sec-61cd">
+        <div class="u-clearfix u-sheet u-sheet-1 logotext">
+            <div class="u-align-center">
+                <h1 class="u-custom-font u-text u-text-1"><img title="logo" alt="kickass" title="kickass"
+                        src="images/kiklogo.svg" class="top_logo">
+                </h1>
+                <h3 class="u-text u-text-2">Kickass Torrents unblocked from ISP</h3>
+                <br>
+            </div>
+
+
+            <div>
+                <h2>What is Kickasstorrents?</h2>
+                <p>Kickasstorrents (KAT) was one of the most popular torrent indexing websites, allowing users to search
+                    and download torrent files for movies, TV shows, software, games, music, and more. It was widely
+                    used for peer-to-peer file sharing.</p>
+                <br>
+                <h2>What content can you find on Kickasstorrents?</h2>
+                <p>Kickasstorrents offered a wide variety of content, including:</p>
+                <ul>
+                    <li>Movies and TV shows</li>
+                    <li>Music and albums</li>
+                    <li>Software and applications</li>
+                    <li>Games (PC, console, and mobile)</li>
+                    <li>eBooks and comics</li>
+                    <li>Anime and other media</li>
+                </ul>
+                <br>
+                <h2>When was Kickasstorrents created?</h2>
+                <p>Kickasstorrents was launched in 2008 and quickly became one of the most popular torrent sites on the
+                    internet.</p>
+                <br>
+                <h2>Does Kickasstorrents get taken down?</h2>
+                <p>Yes, Kickasstorrents was shut down in 2016 following a coordinated effort by U.S. authorities and
+                    international law enforcement. The original domain (kickasstorrents.com) was seized, and the founder
+                    was arrested. Since then, several mirror sites and clones have emerged, but they are not officially
+                    affiliated with the original platform.</p>
+                <br>
+                <h2>In which countries can I use Kickasstorrents?</h2>
+                <p>The original Kickasstorrents site is no longer operational. However, its mirror sites and clones may
+                    be accessible in some countries, depending on local internet laws and restrictions.</p>
+                <br>
+                <h2>Does Kickasstorrents have official mobile applications for iOS or Android?</h2>
+                <p>No, Kickasstorrents did not have official mobile applications for iOS or Android. Users typically
+                    accessed the site through a web browser.</p>
+                <br>
+                <h2>Does Kickasstorrents offer content in multiple languages?</h2>
+                <p>Yes, Kickasstorrents offered torrents for content in multiple languages, including movies, TV shows,
+                    and software. However, the site itself was primarily in English.</p>
+                <br>
+                <h2>What type of content does Kickasstorrents offer?</h2>
+                <p>Kickasstorrents offered a wide range of content, including:</p>
+                <ul>
+                    <li>Movies and TV shows (in various languages and formats)</li>
+                    <li>Music (albums, singles, and playlists)</li>
+                    <li>Software (Windows, macOS, Linux)</li>
+                    <li>Games (PC, console, and mobile)</li>
+                    <li>eBooks, comics, and audiobooks</li>
+                    <li>Anime and other niche media</li>
+                </ul>
+
+                <br>
+                <h2>Can Kickasstorrents be used on mobile?</h2>
+                <p>Yes, the original Kickasstorrents website could be accessed on mobile devices through a web browser.
+                    However, there was no official mobile app.</p>
+
+                <br>
+                <h2>How can I improve torrent download speed on Kickasstorrents?</h2>
+                <p>To improve torrent download speed:</p>
+                <ul>
+                    <li>Ensure you have a stable and fast internet connection.</li>
+                    <li>Choose torrents with a high number of seeders.</li>
+                    <li>Configure your torrent client for optimal performance (e.g., increase upload/download slots).
+                    </li>
+                </ul>
+
+                <br>
+                <h2>Is Kickasstorrents free to use?</h2>
+                <p>Yes, Kickasstorrents was free to use. Users could search and download torrents without paying any
+                    fees.</p>
+                <br>
+                <h2>Does Kickasstorrents require user registration or giving my information?</h2>
+                <p>No, Kickasstorrents did not require user registration to download torrents. However, creating an
+                    account allowed users to upload torrents, comment, and interact with the community.</p>
+
+                <br>
+                <h2>Can I download movies or series from Kickasstorrents?</h2>
+                <p>Yes, users could download movies and TV series from Kickasstorrents by downloading the corresponding
+                    torrent files and using a torrent client like uTorrent or BitTorrent. However, downloading
+                    copyrighted content without permission is illegal in many countries.</p>
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <footer class="footer_color">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <p class="col-md-4 mb-0 text-white u-text-variant"><a href="https://kickasstorrents.io/"><img align="footer logo"
+                            style="width: 100px;" src="images/kiklogo.svg" title="logo" alt="logo" class=""></a></p>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

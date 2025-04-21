@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Nominee';
+    src: url('Nominee-Bold.eot');
+    src: local('Nominee Bold'), local('Nominee-Bold'),
+        url('Nominee-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nominee-Bold.woff2') format('woff2'),
+        url('Nominee-Bold.woff') format('woff'),
+        url('Nominee-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nominee';
+    src: url('Nominee-Medium.eot');
+    src: local('Nominee Medium'), local('Nominee-Medium'),
+        url('Nominee-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Nominee-Medium.woff2') format('woff2'),
+        url('Nominee-Medium.woff') format('woff'),
+        url('Nominee-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
