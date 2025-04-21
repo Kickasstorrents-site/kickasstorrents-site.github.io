@@ -154,7 +154,7 @@ header nav .backToSite {
 
 
 .w-domainLink {
-    display: inline-block;
+    display: block;
     padding: 12px 15px;
     margin-top: 10px;
     border-radius: 224px;
@@ -162,7 +162,7 @@ header nav .backToSite {
 }
 .domainLink {
     padding: 0.4em 1em;
-    display: inline-block;
+    display: block;
     font-size: 1.1em;
     background: #594C2D;
     border-radius: 224px;
